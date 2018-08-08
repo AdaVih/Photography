@@ -1,0 +1,40 @@
+<!--pages/home/home.wxml-->
+<view class='card'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <image src='../../image/about.png' class='swiperImg'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='interval'></view>
+
+<view class='about card'>
+  <image src='../../image/about.png' class='aboutLeft'></image>
+  <view class='aboutRight'>
+    INPHOTO壹品摄影工作室是一家以一对一拍摄为特色的集个性写真及婚纱摄影为一体的专业机构。
+  </view>
+</view>
+
+<view class='interval'></view>
+
+<view class='call card'>
+  <view class='call_card'>
+    <view class='call_head'>营业时间</view>
+    <view class='call_content'>8:00-22:00</view>
+  </view>
+  <view class='call_card'>
+    <view class='call_head'>电话</view>
+    <view class='call_content'>-----</view>
+  </view>
+  <view class='call_card'>
+    <view class='call_head'>地址</view>
+    <view class='call_content'>福建省厦门市集美区福建省厦门市集美区</view>
+  </view>
+  <view class='call_card'>
+    <view class='call_head'>微信</view>
+    <view class='call_content'>-----</view>
+  </view>
+</view>
