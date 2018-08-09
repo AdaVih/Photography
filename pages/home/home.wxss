@@ -1,18 +1,15 @@
 /* pages/home/home.wxss */
 .about{
-  height: 270px;
   display: flex;
   background-color: #fff;
 }
 .aboutLeft{
   margin: 10px;
   width: 40vw;
-  height: 250px;
 }
 .aboutRight{
   margin: 10px;
   width: 50vw;
-  height: 250px;
 }
 .swiperImg{
   width: 100%;

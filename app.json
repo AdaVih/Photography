@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/home",
     "pages/photo/photo",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/photo/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,22 +14,19 @@
   "tabBar": {
     "color": "#8a8a8a",
     "selectedColor": "#e89abe",
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "首页",
-      "iconPath": "./image/home.png",
-      "selectedIconPath": "./image/homes.png"
-    },{
-      "pagePath": "pages/photo/photo",
-      "text": "客片",
-      "iconPath": "./image/photo.png",
-      "selectedIconPath": "./image/photos.png"
-    },
-    {
-      "pagePath": "pages/order/order",
-      "text": "预约",
-      "iconPath": "./image/order.png",
-      "selectedIconPath": "./image/orders.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/homes.png"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "text": "客片",
+        "iconPath": "./image/photo.png",
+        "selectedIconPath": "./image/photos.png"
+      }
+    ]
   }
 }

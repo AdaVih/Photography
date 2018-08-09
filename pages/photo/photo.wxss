@@ -1,1 +1,20 @@
 /* pages/photo/photo.wxss */
+.card image{
+  display: block;
+  width: 100%;
+  height: 180px;
+}
+.card view{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(224, 90, 90, 0.2);
+  color: #fff;
+  width: 100%;
+  line-height: 40px;
+}
+.card_title{
+  margin-left: 20px;
+}
+.card{
+  margin-bottom: 10px;
+}

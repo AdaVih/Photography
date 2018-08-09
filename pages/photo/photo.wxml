@@ -1,2 +1,7 @@
 <!--pages/photo/photo.wxml-->
-<text>pages/photo/photo.wxml</text>
+<view class='card' bindtap='goto' >
+  <image src='../../image/about.png'></image>
+  <view>
+    <text class='card_title'>浪漫灯火</text>
+  </view>
+</view>

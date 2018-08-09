@@ -1,0 +1,13 @@
+<!--pages/photo/detail/detail.wxml-->
+<view class='main'>
+  <image mode='widthFix' src='../../../image/about.png'></image>
+  <image mode='widthFix' src='../../../image/detail.png'></image>
+  <image mode='widthFix' src='../../../image/about.png'></image>
+  <image mode='widthFix' src='../../../image/detail.png'></image>
+</view>
+<view class='main'>
+  <image mode='widthFix' src='../../../image/about.png'></image>
+  <image mode='widthFix' src='../../../image/detail.png'></image>
+  <image mode='widthFix' src='../../../image/about.png'></image>
+  <image mode='widthFix' src='../../../image/detail.png'></image>
+</view>

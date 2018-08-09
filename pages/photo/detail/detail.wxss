@@ -1,0 +1,10 @@
+/* pages/photo/detail/detail.wxss */
+image{
+  display: block;
+  width: 46vw;
+  margin: 2vw;
+}
+.main{
+  float: left;
+  width: 50vw;
+}

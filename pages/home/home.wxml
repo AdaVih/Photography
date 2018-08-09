@@ -12,7 +12,7 @@
 <view class='interval'></view>
 
 <view class='about card'>
-  <image src='../../image/about.png' class='aboutLeft'></image>
+  <image mode='widthFix' src='../../image/about.png' class='aboutLeft'></image>
   <view class='aboutRight'>
     INPHOTO壹品摄影工作室是一家以一对一拍摄为特色的集个性写真及婚纱摄影为一体的专业机构。
   </view>

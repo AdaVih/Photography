@@ -1,4 +1,4 @@
-// pages/photo/photo.js
+// pages/photo/detail/detail.js
 Page({
 
   /**
@@ -6,12 +6,6 @@ Page({
    */
   data: {
   
-  },
-
-  goto: function(e){
-    wx.navigateTo({
-      url: './detail/detail',
-    })
   },
 
   /**

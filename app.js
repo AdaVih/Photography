@@ -1,6 +1,12 @@
 //app.js
 App({
   onLaunch: function () {
+    require('./sdk-v1.5.0.js')
+
+    let clientID = 'fd94ee68bce0aa7b6ae5'
+    wx.BaaS.init(clientID)
+
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -10,6 +16,9 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        wx.BaaS.login(false).then(res => {
+          console.log(res)
+        })
       }
     })
     // 获取用户信息
